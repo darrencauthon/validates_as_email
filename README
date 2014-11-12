@@ -35,7 +35,7 @@ Usage:
 In your model file do something like:
 
 class MyClass < ActiveRecord::Base
-  validates_as_emaile :email, :message => 'Invalid Email Address', :allow_nil => true
+  validates_as_email :email, :message => 'Invalid Email Address', :allow_nil => true
 end
 
 Tests:
